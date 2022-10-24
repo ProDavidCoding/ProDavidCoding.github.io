@@ -55,9 +55,7 @@ var interval = setInterval(function(){
 
 recognition.onend = function() {
  if(counter <= 5 * 600000)
-    if(!(transcript.split(" ")).includes("update")){
-        recognition.start();
-    }
+    recognition.start();
  else
    clearInterval(interval)
 }
