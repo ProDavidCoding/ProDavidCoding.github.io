@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    overflow: hidden;
+} 
+
+body {
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    color: white;
+}
+
+.info {
+    height: 50vw;
+    width: 50%;
+    margin-top: 3vw;
+}
+
+.info h1 {
+    font-size: 19vw;
+    font-weight: 500;
+}
+
+.date h2 {
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.weather {
+    width: 40%;
+    margin-top: 5vw;
+}
+
+.weather #weather_icon {
+    width: 10vw;
+}
+
+.weather h2 {
+    font-size: 2.8vw;
+    font-weight: 300;
+    margin-top: 1vw;
+}
